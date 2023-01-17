@@ -1,0 +1,139 @@
+/* *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  .navbar{
+    background-color: #2874f0;
+    margin: 0px 5px;
+    padding: 5px;
+  }
+  .navbar a{
+    text-decoration: none;
+  }
+  #flipkart{
+    margin-left: 120px;
+    margin-bottom: 0px;
+  }
+  #seller,#more,#cart{
+    margin: 5px;
+    padding: 0px 10px;
+  }
+  #flipkart,#seller,#more,#cart{
+    color: white;
+  }
+  #login{
+    margin: 5px;
+    padding: 3px 15px;
+  }
+  #searchbar{
+    margin: 5px;
+    padding: 7px 5px;
+    width: 300px;
+  }
+  #flipkartlogo{
+    margin-top: 0px;
+    padding: 0px;
+    width: 75px;
+  } */
+
+  *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+      
+  .navlinks{
+    display: flex;
+    flex-wrap: wrap;
+    height: 70px;
+  }
+  ul{
+    background-color: #2874f0;
+  }
+  ul li{
+    list-style-type: none;
+    margin: 5px 50px;
+    padding: 5px;
+  }
+  ul li a{
+    text-decoration: none;
+  }
+  #FKlogo{
+    width: 110px;
+    margin: -25px 0px 0px 150px;
+  }
+  #nav-1{
+    margin: 0px;
+  }
+  #nav-2{
+    margin:13px 10px 0px 0px;
+  }
+  #nav-3{
+    margin: 22px 50px 0px 0px;
+  }
+  #nav-4{
+    margin: 22px 50px 0px 0px;
+  }
+  #nav-5{
+    margin: 22px 50px 0px 0px;
+  }
+  #nav-6{
+    margin: 22px 0px 0px 0px;
+  }
+  li input{
+    padding: 5px 5px 5px 20px;
+    width: 550px;
+    height: 45px;
+    top: -5px;
+    position: relative;
+    font-size: 15px;
+  }
+  li button{
+    width: 145px;
+    height: 42px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2874f0;
+    position: relative;
+    top: -13px;
+    margin-left: 35px;
+
+  }
+  #seller{
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    position: relative;
+    top: -4px;
+    left: -20px;
+  }
+  #nav-5{
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    position: relative;
+    top: -4px;
+    left: -30px;
+  }
+  #cart{
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    position: relative;
+    top: -4px;
+    left: -35px;
+  }
+  select{
+    background-color: #2874f0;
+    color: white;
+  }
+  #search{
+    width: 5px;
+  }
+
+  #cartlogo{
+    position: relative;
+    width: 25px;
+    top: 4px;
+  }

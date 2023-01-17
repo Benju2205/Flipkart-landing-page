@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.listItems{
+    display: flex;
+    background-color: white;
+    /* width: 100vw; */
+    justify-content: center;
+}
+.items{
+    margin: 25px;
+    width: 94px;
+}
+a{
+    margin: 0px;
+
+}
+img{
+    width: 60px;
+}
+
+span{
+    color: black;
+}
